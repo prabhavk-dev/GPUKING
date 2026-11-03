@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="GPU KING — GPU compute, dedicated servers and cloud infrastructure for AI and enterprise workloads.">
+<title>GPU KING | GPU & Cloud Infrastructure</title>
+<style>
+:root{--bg:#080d18;--panel:#101a2b;--panel2:#0c1422;--text:#f4f7fb;--muted:#a7b4c7;--line:rgba(255,255,255,.11);--blue:#70a7ff;--cyan:#68e0dc;--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 78% 0%,rgba(45,99,170,.2),transparent 36%),var(--bg);color:var(--text);font:16px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.logo{font-weight:900;letter-spacing:.08em;font-size:20px}.logo span{color:var(--cyan)}.links{display:flex;gap:28px;color:var(--muted);font-size:14px}.links a:hover{color:white}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;border-radius:9px;background:linear-gradient(110deg,#78aaff,#5bd8d3);color:#06101c;font-weight:800;border:0;cursor:pointer}.btn.secondary{background:transparent;border:1px solid var(--line);color:var(--text)}.hero{padding:92px 0 78px;display:grid;grid-template-columns:1.08fr .92fr;gap:54px;align-items:center}.eyebrow{color:var(--cyan);font-size:12px;font-weight:800;letter-spacing:.17em;text-transform:uppercase}.hero h1{font-size:clamp(42px,6vw,70px);line-height:1.03;letter-spacing:-.045em;margin:18px 0}.hero h1 span{color:var(--blue)}.lead{font-size:18px;color:var(--muted);max-width:620px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.visual{min-height:390px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,rgba(75,132,211,.18),rgba(17,29,48,.7)),url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=85') center/cover;position:relative;overflow:hidden;box-shadow:0 25px 80px rgba(0,0,0,.35)}.visual:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(5,10,19,.72),transparent 65%)}.visual-label{position:absolute;z-index:1;bottom:24px;left:25px}.visual-label strong{display:block;font-size:22px}.visual-label small{color:#d2deed}.strip{border-block:1px solid var(--line);background:rgba(255,255,255,.025)}.stripin{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:19px 0;color:var(--muted);font-size:13px}.section{padding:78px 0}.section h2{font-size:clamp(30px,4vw,44px);letter-spacing:-.035em;line-height:1.12;margin:10px 0 14px}.sub{color:var(--muted);max-width:680px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}.card{padding:25px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(160deg,rgba(255,255,255,.055),rgba(255,255,255,.018))}.icon{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:rgba(104,224,220,.12);color:var(--cyan);font-size:20px}.card h3{margin:18px 0 7px;font-size:19px}.card p{margin:0;color:var(--muted);font-size:14px}.gpu-list{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.chip{padding:9px 13px;border:1px solid var(--line);border-radius:99px;background:rgba(255,255,255,.035);font-size:13px;color:#dce7f5}.split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}.featurebox{border:1px solid var(--line);background:var(--panel);border-radius:18px;padding:28px}.featurebox ul{padding-left:19px;color:var(--muted)}.featurebox li{margin:9px 0}.quote{background:linear-gradient(135deg,rgba(66,115,183,.18),rgba(86,209,204,.07));border:1px solid var(--line);border-radius:22px;padding:34px;display:grid;grid-template-columns:.8fr 1.2fr;gap:36px}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}label{font-size:12px;color:#c7d4e5;font-weight:700}input,select,textarea{width:100%;border:1px solid var(--line);background:#0a1321;color:var(--text);padding:12px 13px;border-radius:8px;font:inherit;font-size:14px}textarea{min-height:90px;resize:vertical}input:focus,select:focus,textarea:focus{outline:1px solid var(--blue);border-color:var(--blue)}.note{font-size:12px;color:var(--muted)}.status{display:none;margin-top:12px;padding:12px;border-radius:8px;background:rgba(104,224,220,.1);color:#b8fff8;font-size:13px}.footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:800px){.links{display:none}.hero,.split,.quote{grid-template-columns:1fr}.hero{padding:65px 0 55px;gap:30px}.visual{min-height:280px}.cards{grid-template-columns:1fr}.section{padding:58px 0}.quote{padding:23px}.formgrid{grid-template-columns:1fr}.field.full{grid-column:auto}.stripin{justify-content:flex-start}}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <a class="logo" href="#">GPU <span>KING</span></a>
+  <nav class="links"><a href="#gpu">GPU Infrastructure</a><a href="#cloud">Cloud Services</a><a href="#about">Why GPU KING</a><a href="#contact">Contact</a></nav>
+  <a class="btn" href="#contact">Request a Quote</a>
+</header>
+<main>
+<section class="wrap hero">
+  <div>
+    <div class="eyebrow">GPU COMPUTE · CLOUD · BARE METAL</div>
+    <h1>Powering the next generation of <span>AI workloads.</span></h1>
+    <p class="lead">Dedicated GPU infrastructure and cloud solutions for AI teams, developers and enterprises. Tell us what you're building — we'll help scope the right infrastructure.</p>
+    <div class="actions"><a class="btn" href="#contact">Discuss Your Requirement</a><a class="btn secondary" href="#gpu">Explore Infrastructure</a></div>
+  </div>
+  <div class="visual"><div class="visual-label"><strong>Compute without compromise.</strong><small>GPU capacity · Bare metal · Cloud infrastructure</small></div></div>
+</section>
+<div class="strip"><div class="wrap stripin"><span>GPU COMPUTE</span><span>BARE METAL</span><span>CLOUD INSTANCES</span><span>STORAGE & BACKUP</span><span>AI / ML WORKLOADS</span></div></div>
+<section class="wrap section" id="gpu">
+  <div class="eyebrow">GPU INFRASTRUCTURE</div><h2>Compute for demanding workloads.</h2>
+  <p class="sub">Explore dedicated GPU options for model training, inference, fine-tuning, rendering and high-performance computing. Availability and deployment locations are confirmed against each requirement.</p>
+  <div class="gpu-list"><span class="chip">NVIDIA HGX B300</span><span class="chip">NVIDIA H200</span><span class="chip">NVIDIA H100</span><span class="chip">NVIDIA RTX PRO 6000</span><span class="chip">Other GPU configurations</span></div>
+  <div class="cards">
+    <article class="card"><div class="icon">▦</div><h3>Dedicated GPU Servers</h3><p>Dedicated GPU capacity for production AI, machine learning and compute-intensive workloads.</p></article>
+    <article class="card"><div class="icon">⌘</div><h3>GPUaaS</h3><p>GPU infrastructure aligned to your required configuration, deployment location and commitment term.</p></article>
+    <article class="card"><div class="icon">◇</div><h3>AI & HPC Workloads</h3><p>Infrastructure options for training, inference, fine-tuning, simulation and high-performance computing.</p></article>
+  </div>
+</section>
+<section class="section" id="cloud" style="background:rgba(255,255,255,.022);border-block:1px solid var(--line)">
+  <div class="wrap split">
+    <div><div class="eyebrow">CLOUD INFRASTRUCTURE</div><h2>More than GPU compute.</h2><p class="sub">Build and run business workloads with infrastructure options that can scale alongside your requirements.</p><div class="gpu-list"><span class="chip">Cloud Compute</span><span class="chip">Bare Metal</span><span class="chip">High Memory</span><span class="chip">Block & Object Storage</span><span class="chip">Backup & Recovery</span><span class="chip">Networking</span></div></div>
+    <div class="featurebox"><h3>Infrastructure services</h3><ul><li>Virtual machines and dedicated compute</li><li>Bare-metal servers with dedicated resources</li><li>Block and object storage options</li><li>Backup, snapshots and recovery planning</li><li>Networking and private connectivity options</li></ul></div>
+  </div>
+</section>
+<section class="wrap section" id="about">
+  <div class="eyebrow">WHY GPU KING</div><h2>A straightforward way to scope infrastructure.</h2><p class="sub">Share your technical and commercial requirements. We can work through configuration, GPU quantity, location, deployment timeline and contract duration before proposing an option.</p>
+  <div class="cards"><article class="card"><h3>Requirement-led</h3><p>Start with your workload, not a one-size-fits-all package.</p></article><article class="card"><h3>Technical clarity</h3><p>Discuss GPU model, interconnect, CPU, memory, storage and networking needs.</p></article><article class="card"><h3>Commercial alignment</h3><p>Evaluate term, capacity, deployment region and budget together.</p></article></div>
+</section>
+<section class="wrap section" id="contact">
+  <div class="quote">
+    <div><div class="eyebrow">TELL US WHAT YOU NEED</div><h2>Let's scope your infrastructure.</h2><p class="sub">Share a few details and we'll follow up to understand your requirement.</p><p class="note">No commitment required. Please avoid sharing passwords, credentials or confidential data in this form.</p></div>
+    <form id="leadForm">
+      <div class="formgrid">
+        <div class="field"><label for="name">Full name *</label><input id="name" name="name" required placeholder="Your name"></div>
+        <div class="field"><label for="email">Business email *</label><input id="email" name="email" type="email" required placeholder="you@company.com"></div>
+        <div class="field"><label for="company">Company</label><input id="company" name="company" placeholder="Company name"></div>
+        <div class="field"><label for="type">What do you need? *</label><select id="type" name="type" required><option value="">Select requirement</option><option>GPUaaS / Dedicated GPU</option><option>Cloud Compute</option><option>Bare Metal</option><option>Storage / Backup</option><option>Multiple infrastructure services</option><option>Not sure yet</option></select></div>
+        <div class="field"><label for="gpu">GPU / configuration</label><select id="gpu" name="gpu"><option value="">Select if applicable</option><option>NVIDIA HGX B300</option><option>NVIDIA H200</option><option>NVIDIA H100</option><option>NVIDIA RTX PRO 6000</option><option>Other / need guidance</option></select></div>
+        <div class="field"><label for="quantity">GPU quantity</label><input id="quantity" name="quantity" placeholder="e.g. 8, 16, 64"></div>
+        <div class="field"><label for="region">Preferred deployment region</label><input id="region" name="region" placeholder="e.g. India, Europe, US"></div>
+        <div class="field"><label for="timeline">Expected start</label><select id="timeline" name="timeline"><option value="">Select timeline</option><option>Immediately</option><option>Within 1 month</option><option>1–3 months</option><option>3–6 months</option><option>Planning / exploring</option></select></div>
+        <div class="field full"><label for="details">Tell us about your workload / requirement</label><textarea id="details" name="details" placeholder="GPU model, duration, interconnect, storage, budget range or any other details..."></textarea></div>
+        <div class="field full"><button class="btn" type="submit">Submit Requirement</button><div class="note">Prototype form: submissions are not yet delivered to an inbox. Backend and email/CRM integration are the next build step.</div><div class="status" id="status" role="status">Form validation passed. Connect the backend to receive and manage real enquiries.</div></div>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="wrap footer"><div><strong style="color:#fff;letter-spacing:.08em">GPU KING</strong><br>GPU & Cloud Infrastructure</div><div>Independent brand concept · Contact details and verified company claims to be added.</div><div>© <span id="year"></span> GPU KING</div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('leadForm').addEventListener('submit',function(e){e.preventDefault();if(!this.reportValidity())return;document.getElementById('status').style.display='block';});
+</script>
+</body>
+</html>
